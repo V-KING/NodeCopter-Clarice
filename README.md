@@ -34,7 +34,7 @@ To actually use this project you will need:
 
 add the Twitter API Keys:
 
-```javascript
+```javascript (nodecopter.js)
 
 var authorisedTwitter = new Twitter(new Twitter.LoginCredential(	'CONSUMER_TOKEN',
 												'CONSUMER_SECRET',
