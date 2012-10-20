@@ -32,7 +32,7 @@ To actually use this project you will need:
 
 ### to begin:
 
-1. add the Twitter API Keys:
+add the Twitter API Keys:
 
 ```javascript
 
@@ -43,9 +43,9 @@ var authorisedTwitter = new Twitter(new Twitter.LoginCredential(	'CONSUMER_TOKEN
 
 ```
 
-2. Ensure you are connected to both the AR Drone and the Internet
+Ensure you are connected to both the AR Drone and the Internet
 
-3. Customise the users permitted to control the drone (users.js)
+Customise the users permitted to control the drone (users.js)
 
 ```javascript
 
@@ -58,7 +58,7 @@ module.exports = [
 ];
 
 ```
-4. Customise the hashtag which identifies the tweet as a command-tweet (keywords.js)
+Customise the hashtag which identifies the tweet as a command-tweet (keywords.js)
 
 ```javascript
 
@@ -70,7 +70,7 @@ module.exports = [
 
 ```
 
-5. run the following command
+run the following command
 
 
 ```bash
