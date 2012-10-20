@@ -43,3 +43,44 @@ var authorisedTwitter = new Twitter(new Twitter.LoginCredential(	'CONSUMER_TOKEN
 
 ```
 
+2. Ensure you are connected to both the AR Drone and the Internet
+
+3. Customise the users permitted to control the drone (users.js)
+
+```javascript
+
+module.exports = [
+
+	"allyourusers",
+
+	"arebelongtous"
+	
+];
+
+```
+4. Customise the hashtag which identifies the tweet as a command-tweet (keywords.js)
+
+```javascript
+
+module.exports = [
+
+	"MyDroneName"
+
+];
+
+```
+
+5. run the following command
+
+
+```bash
+
+node nodecopter.js
+
+```
+
+The program should alert you of certain telemetrics such as low battery etc and enable you to control it by tweeting as follows
+
+```
+@sean_nicholls: #NodeCopterClarice #takeoff
+```
