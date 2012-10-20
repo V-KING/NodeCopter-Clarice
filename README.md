@@ -82,5 +82,7 @@ node nodecopter.js
 The program should alert you of certain telemetrics such as low battery etc and enable you to control it by tweeting as follows
 
 ```
-@sean_nicholls: #NodeCopterClarice #takeoff
+@sean_nicholls: #NodeCopterClarice #launch
 ```
+
+At this point, your drone probably crashed. I'm sorry.
